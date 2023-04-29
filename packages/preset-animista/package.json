@@ -37,5 +37,9 @@
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub"
+  },
+  "peerDependencies": {
+    "@unocss/preset-mini": ">=0.51.8",
+    "unocss": ">=0.51.8"
   }
 }

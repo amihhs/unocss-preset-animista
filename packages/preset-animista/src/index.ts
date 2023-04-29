@@ -2,9 +2,6 @@ import type { Preset } from '@unocss/core'
 import type { PresetMiniOptions, Theme } from '@unocss/preset-mini'
 import { rules } from './rules'
 import { createTheme } from './theme'
-
-export { colors, preflights } from '@unocss/preset-mini'
-export type { Theme } from '@unocss/preset-mini'
 export { rules, createTheme }
 
 export interface PresetAnimistaOptions extends PresetMiniOptions { }
@@ -21,5 +18,3 @@ export function presetAnimista(options: PresetAnimistaOptions = {}): Preset<Them
     prefix: options.prefix,
   }
 }
-
-export default presetAnimista

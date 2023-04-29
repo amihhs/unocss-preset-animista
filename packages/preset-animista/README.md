@@ -1,26 +1,22 @@
-# @unocss/preset-animista
+# unocss-preset-animista
 
-Animista preset for UnoCSS preset for [UnoCSS](https://github.com/unocss/unocss).
+> quickly use animista in unocss
 
-> This preset inherits
-> - [@unocss/preset-mini](https://github.com/antfu/unocss/tree/main/packages/preset-mini)
+## USe
 
-## Installation
+```html
 
-```bash
-npm i -D @unocss/preset-animista
+<div class="animista-<keyframe-name>"></div>
+
 ```
 
-```ts
-import presetAnimista from '@unocss/preset-animista'
+## Progress
 
-Unocss({
-  presets: [
-    presetAnimista(),
-  ],
-})
-```
+- attention  ✅
+- background ✅
+- basic  ✅
+- entrances 
+- exits 
+- text ✅
 
-## License
 
-MIT License &copy; 2021-PRESENT [Anthony Fu](https://github.com/antfu)

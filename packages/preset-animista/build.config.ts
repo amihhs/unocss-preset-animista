@@ -7,10 +7,10 @@ export default defineBuildConfig({
   clean: true,
   declaration: true,
   externals: [
-    'unconfig',
-    'magic-string',
+    '@unocss/preset-mini',
+    '@unocss/extractor-arbitrary-variants',
+    '@unocss/preset-mini/utils',
     '@unocss/core',
-    '@unocss/config',
   ],
   rollup: {
     emitCJS: true,
