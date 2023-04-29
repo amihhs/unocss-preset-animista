@@ -1,16 +1,22 @@
-# monorepo template
+# unocss-preset-animista
+
+> quickly use animista in unocss
+
+## USe
+
+```html
+
+<div class="animista-<keyframe-name>"></div>
+
+```
+
+## Progress
+
+- attention  ✅
+- background ✅
+- basic  ✅
+- entrances 
+- exits 
+- text ✅
 
 
-- typescript
-- eslint
-- [bumpp](https://github.com/antfu/bumpp)
-
-Automate your release process with a single command.
- More to see [bumpp](https://github.com/antfu/bumpp) and [version-bump-prompt](https://github.com/JS-DevTools/version-bump-prompt)
-
-- esno
-- husky
-- lint-staged
-- commitlint
-- unbuild
-- vitest

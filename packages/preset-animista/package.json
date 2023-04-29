@@ -1,0 +1,45 @@
+{
+  "name": "@amihhs/preset-animista",
+  "version": "0.0.1",
+  "description": "animista preset for UnoCSS",
+  "license": "MIT",
+  "funding": "https://animista.net/",
+  "homepage": "https://github.com/unocss/unocss/tree/main/packages/preset-animista#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unocss/unocss.git",
+    "directory": "packages/preset-animista"
+  },
+  "bugs": {
+    "url": "https://github.com/unocss/unocss/issues"
+  },
+  "keywords": [
+    "unocss",
+    "unocss-preset",
+    "animista"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "*.css"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "peerDependencies": {
+    "@unocss/preset-mini": "*",
+    "unocss": "*"
+  }
+}
