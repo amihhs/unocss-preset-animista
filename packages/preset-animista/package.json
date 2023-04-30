@@ -1,17 +1,17 @@
 {
   "name": "@amihhs/preset-animista",
   "version": "0.0.2",
-  "description": "animista preset for UnoCSS",
+  "description": "animista preset for unocss",
   "license": "MIT",
   "funding": "https://animista.net/",
-  "homepage": "https://github.com/unocss/unocss/tree/main/packages/preset-animista#readme",
+  "homepage": "https://github.com/amihhs/unocss-preset-animista#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unocss/unocss.git",
+    "url": "git+https://github.com/amihhs/unocss-preset-animista.git",
     "directory": "packages/preset-animista"
   },
   "bugs": {
-    "url": "https://github.com/unocss/unocss/issues"
+    "url": "https://github.com/amihhs/unocss-preset-animista/issues"
   },
   "keywords": [
     "unocss",
