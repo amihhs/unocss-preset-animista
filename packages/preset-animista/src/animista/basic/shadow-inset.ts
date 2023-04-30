@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function shadowInsetBasic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'shadow-inset-center': '{0%{box-shadow:inset 0 0 0 0 transparent}100%{box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5)}}',

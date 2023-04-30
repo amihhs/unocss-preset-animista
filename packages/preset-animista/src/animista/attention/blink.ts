@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function blinkAnimista(theme: Theme) {
+
+export function blinkAttention(theme: Theme) {
   const keyframes: Record<string, string> = {
     'blink-1': '{0%,50%,100%{opacity:1}25%,75%{opacity:0}}',
     'blink-2': '{0%{opacity:1}50%{opacity:.2}100%{opacity:1}}',

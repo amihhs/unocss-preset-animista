@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function focusInText(theme: Theme) {
   const keyframes: Record<string, string> = {
     'text-focus-in': '{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}',

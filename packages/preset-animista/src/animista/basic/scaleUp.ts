@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function scaleUpBasic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'scale-up-center': '{0%{transform:scale(.5)}100%{transform:scale(1)}}',

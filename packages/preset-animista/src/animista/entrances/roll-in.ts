@@ -1,11 +1,14 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
-export function rollInAnimista(theme: Theme) {
-  const keyframes: Record<string, string> = {}
-  const duration = '.4s'
-  const timingFns = 'cubic-bezier(0.39, 0.575, 0.565, 1)'
+
+export function rollInEntrances(theme: Theme) {
+  const keyframes: Record<string, string> = {
+    'roll-in-left': '{0%{transform:translateX(-200rem) rotate(-540deg);opacity:0}100%{transform:translateX(0) rotate(0deg);opacity:1}}',
+    'roll-in-top': '{0%{transform:translateY(-200rem) rotate(-540deg);opacity:0}100%{transform:translateY(0) rotate(0deg);opacity:1}}',
+    'roll-in-right': '{0%{transform:translateX(200rem) rotate(540deg);opacity:0}100%{transform:translateX(0) rotate(0deg);opacity:1}}',
+    'roll-in-bottom': '{0%{transform:translateY(200rem) rotate(540deg);opacity:0}100%{transform:translateY(0) rotate(0deg);opacity:1}}',
+  }
+  const duration = '.6s'
+  const timingFns = 'ease-out'
   const mode = 'both'
 
   for (const key in keyframes) {

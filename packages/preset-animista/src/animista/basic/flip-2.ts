@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function flip2Basic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'flip-2-hor-top-1': '{0%{transform:translateY(0) rotateX(0);transform-origin:50% 0}100%{transform:translateY(-100%) rotateX(-180deg);transform-origin:50% 100%}}',

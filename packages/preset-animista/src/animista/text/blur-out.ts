@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function blurOutText(theme: Theme) {
   const keyframes: Record<string, string> = {
     'text-blur-out': '{0%{filter:blur(.01)}100%{filter:blur(3rem) opacity(0)}}',

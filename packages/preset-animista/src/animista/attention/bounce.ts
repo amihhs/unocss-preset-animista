@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function bounceAnimista(theme: Theme) {
+
+export function bounceAttention(theme: Theme) {
   const keyframes: Record<string, string> = {
     'bounce-top': '{0%{transform:translateY(-11.25rem);animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{transform:translateY(-6rem);animation-timing-function:ease-in}65%{transform:translateY(-3rem);animation-timing-function:ease-in}82%{transform:translateY(-1.5rem);animation-timing-function:ease-in}93%{transform:translateY(-1rem);animation-timing-function:ease-in}25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-out}100%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}}',
     'bounce-bottom': '{0%{transform:translateY(11.25rem);animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{transform:translateY(6rem);animation-timing-function:ease-in}65%{transform:translateY(3rem);animation-timing-function:ease-in}82%{transform:translateY(1.5rem);animation-timing-function:ease-in}93%{transform:translateY(1rem);animation-timing-function:ease-in}25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-out}100%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}}',

@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function slideRotateBasic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'slide-rotate-hor-top': '{0%{transform:translateY(0) rotateX(0deg)}100%{transform:translateY(-37.5rem) rotateX(-90deg)}}',

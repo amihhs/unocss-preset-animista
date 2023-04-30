@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function trackingInText(theme: Theme) {
   const keyframes: Record<string, string> = {
     'tracking-in-expand': '{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}',

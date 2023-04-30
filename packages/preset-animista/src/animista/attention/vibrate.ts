@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function vibrateAnimista(theme: Theme) {
+
+export function vibrateAttention(theme: Theme) {
   const keyframes: Record<string, string> = {
     'vibrate-1': '{0%{transform:translate(0)}20%{transform:translate(-0.5rem,0.5rem)}40%{transform:translate(-0.5rem,-0.5rem)}60%{transform:translate(0.5rem,0.5rem)}80%{transform:translate(0.5rem,-0.5rem)}100%{transform:translate(0)}}',
     'vibrate-2': '{0%{transform:translate(0)}20%{transform:translate(0.5rem,-0.5rem)}40%{transform:translate(0.5rem,0.5rem)}60%{transform:translate(-0.5rem,0.5rem)}80%{transform:translate(-0.5rem,-0.5rem)}100%{transform:translate(0)}}',

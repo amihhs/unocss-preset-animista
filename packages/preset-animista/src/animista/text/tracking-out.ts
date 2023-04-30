@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function trackingOutText(theme: Theme) {
   const keyframes: Record<string, string> = {
     'tracking-out-contract': '{0%{opacity:1}50%{opacity:1}100%{letter-spacing:-.5em;opacity:0}}',

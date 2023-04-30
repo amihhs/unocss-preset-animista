@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function wobbleAnimista(theme: Theme) {
+
+export function wobbleAttention(theme: Theme) {
   const keyframes: Record<string, string> = {
     'wobble-hor-bottom': '{0%,100%{transform:translateX(0);transform-origin:50% 50%}15%{transform:translateX(-7.5rem) rotate(-6deg)}30%{transform:translateX(3.75rem) rotate(6deg)}45%{transform:translateX(-3.75rem) rotate(-3.6deg)}60%{transform:translateX(2.25rem) rotate(2.4deg)}75%{transform:translateX(-1.5rem) rotate(-1.2deg)}}',
     'wobble-hor-top': '{0%,100%{transform:translateX(0);transform-origin:50% 50%}15%{transform:translateX(-7.5rem) rotate(6deg)}30%{transform:translateX(3.75rem) rotate(-6deg)}45%{transform:translateX(-3.75rem) rotate(3.6deg)}60%{transform:translateX(2.25rem) rotate(-2.4deg)}75%{transform:translateX(-1.5rem) rotate(1.2deg)}}',

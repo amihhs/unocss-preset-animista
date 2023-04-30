@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function slideFwdBasic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'slide-fwd-center': '{0%{transform:translateZ(0)}100%{transform:translateZ(40rem)}}',

@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function kenburnsAnimista(theme: Theme) {
+
+export function kenburnsBackground(theme: Theme) {
   const keyframes: Record<string, string> = {
     'kenburns-top': '{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}',
     'kenburns-top-right': '{0%{transform:scale(1) translate(0,0);transform-origin:84% 16%}100%{transform:scale(1.25) translate(20px,-15px);transform-origin:right top}}',

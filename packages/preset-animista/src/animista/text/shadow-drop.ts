@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function shadowDropText(theme: Theme) {
   const keyframes: Record<string, string> = {
     'text-shadow-pop-top': '{0%{text-shadow:0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555;transform:translateY(0)}100%{text-shadow:0 -1px #555,0 -2px #555,0 -3px #555,0 -4px #555,0 -5px #555,0 -6px #555,0 -7px #555,0 -8px #555;transform:translateY(8px)}}',

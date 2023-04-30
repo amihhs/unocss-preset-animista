@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function bgPanAnimista(theme: Theme) {
+
+export function bgPanBackground(theme: Theme) {
   const keyframes: Record<string, string> = {
     'bg-pan-left': '{0%{background-position:100% 50%}100%{background-position:0 50%}}',
     'bg-pan-right': '{0%{background-position:0 50%}100%{background-position:100% 50%}}',

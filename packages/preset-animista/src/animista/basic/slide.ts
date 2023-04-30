@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function slideBasic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'slide-top': '{0%{transform:translateY(0)}100%{transform:translateY(-25rem)}}',

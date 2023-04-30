@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function rotate90Basic(theme: Theme) {
   const properties: Record<string, Record<string, string>> = {
     none: {},

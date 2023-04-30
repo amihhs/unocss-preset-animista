@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function shadowPopText(theme: Theme) {
   const keyframes: Record<string, string> = {}
   const duration = '.4s'

@@ -1,7 +1,5 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-up
- */
+
 export function swingBasic(theme: Theme) {
   const keyframes: Record<string, string> = {
     'swing-top-fwd': '{0%{transform:rotateX(0);transform-origin:top}100%{transform:rotateX(180deg);transform-origin:top}}',

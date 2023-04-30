@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function flickerAnimista(theme: Theme) {
+
+export function flickerAttention(theme: Theme) {
   const keyframes: Record<string, string> = {
     'flicker-1': '{0%,100%{opacity:1}41.99%{opacity:1}42%{opacity:0}43%{opacity:0}43.01%{opacity:1}47.99%{opacity:1}48%{opacity:0}49%{opacity:0}49.01%{opacity:1}}',
     'flicker-2': '{0%,100%{opacity:1}41.99%{opacity:1}42%{opacity:0}43%{opacity:0}43.01%{opacity:1}45.99%{opacity:1}46%{opacity:0}46.9%{opacity:0}46.91%{opacity:1}51.99%{opacity:1}52%{opacity:0}52.8%{opacity:0}52.81%{opacity:1}}',

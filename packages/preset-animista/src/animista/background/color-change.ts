@@ -1,8 +1,6 @@
 import type { Theme } from '@unocss/preset-mini'
-/**
- * https://animista.net/play/basic/scale-down
- */
-export function colorChangeAnimista(theme: Theme) {
+
+export function colorChangeBackground(theme: Theme) {
   const keyframes: Record<string, string> = {
     'color-change-2x': '{0%{background:#19dcea}100%{background:#b22cff}}',
     'color-change-3x': '{0%{background:#19dcea}50%{background:#b22cff}100%{background:#ea2222}}',
