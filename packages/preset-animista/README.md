@@ -1,6 +1,6 @@
 # unocss-preset-animista
 
-> quickly use animista in unocss
+quickly use animista in unocss
 
 ## USe
 
@@ -15,8 +15,8 @@
 - attention  ✅
 - background ✅
 - basic  ✅
-- entrances 
-- exits 
+- entrances ✅
+- exits ✅
 - text ✅
 
 

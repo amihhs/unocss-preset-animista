@@ -8,7 +8,10 @@ import { alias } from '../alias'
 
 export default defineConfig({
   resolve: {
-    alias,
+    alias: {
+      '~': '/src',
+      ...alias,
+    },
   },
   plugins: [
     Vue(),
