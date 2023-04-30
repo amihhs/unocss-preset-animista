@@ -2,8 +2,8 @@ import type { Theme } from '@unocss/preset-mini'
 
 export function shakeAttention(theme: Theme) {
   const keyframes: Record<string, string> = {
-    'shake-horizontal': '{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}',
-    'shake-vertical': '{0%,100%{transform:translateY(0)}10%,30%,50%,70%{transform:translateY(-8px)}20%,40%,60%{transform:translateY(8px)}80%{transform:translateY(6.4px)}90%{transform:translateY(-6.4px)}}',
+    'shake-horizontal': '{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-2.5rem)}20%,40%,60%{transform:translateX(2.5rem)}80%{transform:translateX(2rem)}90%{transform:translateX(-2rem)}}',
+    'shake-vertical': '{0%,100%{transform:translateY(0)}10%,30%,50%,70%{transform:translateY(-2rem)}20%,40%,60%{transform:translateY(2rem)}80%{transform:translateY(1.6rem)}90%{transform:translateY(-1.6rem)}}',
     'shake-lr': '{0%,100%{transform:rotate(0deg);transform-origin:50% 50%}10%{transform:rotate(8deg)}20%,40%,60%{transform:rotate(-10deg)}30%,50%,70%{transform:rotate(10deg)}80%{transform:rotate(-8deg)}90%{transform:rotate(8deg)}}',
     'shake-top': '{0%,100%{transform:rotate(0deg);transform-origin:50% 0}10%{transform:rotate(2deg)}20%,40%,60%{transform:rotate(-4deg)}30%,50%,70%{transform:rotate(4deg)}80%{transform:rotate(-2deg)}90%{transform:rotate(2deg)}}',
     'shake-tr': '{0%,100%{transform:rotate(0deg);transform-origin:100% 0}10%{transform:rotate(2deg)}20%,40%,60%{transform:rotate(-4deg)}30%,50%,70%{transform:rotate(4deg)}80%{transform:rotate(-2deg)}90%{transform:rotate(2deg)}}',
