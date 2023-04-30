@@ -15,7 +15,6 @@
     "play": "esno scripts/generate-animista-json.ts && pnpm -C playground run dev",
     "build": "rimraf packages/*/dist && esno scripts/copy-files.ts && pnpm -r --filter=./packages/* run build",
     "release": "bumpp -r",
-    "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
@@ -39,6 +38,6 @@
     "unocss": "^0.51.8"
   },
   "lint-staged": {
-    "*.{vue,js,ts,jsx,tsx,md,json,yml}": "eslint --fix"
+    "*.{vue,js,ts,jsx,tsx,md,json,yml,yaml}": "eslint --fix"
   }
 }
