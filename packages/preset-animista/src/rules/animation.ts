@@ -8,12 +8,9 @@ export const animations: Rule<Theme>[] = [
     /^(?:animista-)?keyframes-(.+)$/,
     ([, name], { theme }) => {
       const kf = theme.animation?.keyframes?.[name]
-      if (kf) {
-        return [
-        `@keyframes ${name}${kf}`,
-        { animation: name },
-        ]
-      }
+      if (kf)
+        return [`@keyframes ${name}${kf}`, { animation: name }]
+      return { animation: h.bracket.cssvar(name) }
     },
     {
       autocomplete: [
@@ -39,8 +36,7 @@ export const animations: Rule<Theme>[] = [
         {
           animation: `${name} ${duration} ${timing} ${count} ${direction} ${mode}`,
           ...props,
-        },
-        ]
+        }]
       }
       return { animation: h.bracket.cssvar(name) }
     },
